@@ -1,4 +1,5 @@
-﻿using System;
+﻿using c_sharp_demos.algos;
+using System;
 
 namespace c_sharp_demos
 {
@@ -6,7 +7,9 @@ namespace c_sharp_demos
     {
         static void Main(string[] args)
         {
-            reverseWord("Hello World!");
+            //reverseWord("Hello World!");
+
+            algorithm.bubbleSort();
         }
 
 

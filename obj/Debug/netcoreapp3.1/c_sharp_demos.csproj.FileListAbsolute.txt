@@ -1,0 +1,12 @@
+C:\Users\Hillarie\source\repos\c_sharp_demos\bin\Debug\netcoreapp3.1\c_sharp_demos.exe
+C:\Users\Hillarie\source\repos\c_sharp_demos\bin\Debug\netcoreapp3.1\c_sharp_demos.deps.json
+C:\Users\Hillarie\source\repos\c_sharp_demos\bin\Debug\netcoreapp3.1\c_sharp_demos.runtimeconfig.json
+C:\Users\Hillarie\source\repos\c_sharp_demos\bin\Debug\netcoreapp3.1\c_sharp_demos.runtimeconfig.dev.json
+C:\Users\Hillarie\source\repos\c_sharp_demos\bin\Debug\netcoreapp3.1\c_sharp_demos.dll
+C:\Users\Hillarie\source\repos\c_sharp_demos\bin\Debug\netcoreapp3.1\c_sharp_demos.pdb
+C:\Users\Hillarie\source\repos\c_sharp_demos\obj\Debug\netcoreapp3.1\c_sharp_demos.AssemblyInfoInputs.cache
+C:\Users\Hillarie\source\repos\c_sharp_demos\obj\Debug\netcoreapp3.1\c_sharp_demos.AssemblyInfo.cs
+C:\Users\Hillarie\source\repos\c_sharp_demos\obj\Debug\netcoreapp3.1\c_sharp_demos.csproj.CoreCompileInputs.cache
+C:\Users\Hillarie\source\repos\c_sharp_demos\obj\Debug\netcoreapp3.1\c_sharp_demos.dll
+C:\Users\Hillarie\source\repos\c_sharp_demos\obj\Debug\netcoreapp3.1\c_sharp_demos.pdb
+C:\Users\Hillarie\source\repos\c_sharp_demos\obj\Debug\netcoreapp3.1\c_sharp_demos.genruntimeconfig.cache
