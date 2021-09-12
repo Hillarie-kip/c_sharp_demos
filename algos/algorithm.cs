@@ -13,8 +13,8 @@ namespace c_sharp_demos.algos
             Console.WriteLine("Original array :");
 
             foreach (int aa in a)
-             // original array
-            Console.Write(aa + " ");
+                // original array
+                Console.Write(aa + " ");
 
             for (int p = 0; p <= a.Length - 2; p++)
             {
@@ -31,10 +31,64 @@ namespace c_sharp_demos.algos
             Console.WriteLine("\n" + "Sorted array :");
             foreach (int aa in a)
 
-             //sorted array
-            Console.Write(aa + " ");
-           
+                //sorted array
+                Console.Write(aa + " ");
+
 
         }
+
+
+
+        public static void quickSort(int[] arr, int left, int right)
+        {
+            if (left < right)
+            {
+                int pivot = quickSortPartition(arr, left, right);
+
+                if (pivot > 1)
+                {
+                    quickSort(arr, left, pivot - 1);
+                }
+                if (pivot + 1 < right)
+                {
+                    quickSort(arr, pivot + 1, right);
+                }
+            }
+        }
+
+        private static int quickSortPartition(int[] arr, int left, int right)
+        {
+            int pivot = arr[left];
+            while (true)
+            {
+
+                while (arr[left] < pivot)
+                {
+                    left++;
+                }
+
+                while (arr[right] > pivot)
+                {
+                    right--;
+                }
+
+                if (left < right)
+                {
+                    if (arr[left] == arr[right]) return right;
+
+                    int temp = arr[left];
+                    arr[left] = arr[right];
+                    arr[right] = temp;
+
+
+                }
+                else
+                {
+                    return right;
+                }
+            }
+        }
+
+
     }
 }

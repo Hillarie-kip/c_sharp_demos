@@ -9,8 +9,39 @@ namespace c_sharp_demos
         {
             //reverseWord("Hello World!");
 
-            algorithm.bubbleSort();
+            //algorithm.bubbleSort();
+
+
+
+
+            //QUICKSORT
+            int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
+
+            Console.WriteLine("Original array : ");
+            foreach (var item in arr)
+            {
+                Console.Write(" " + item);
+            }
+            Console.WriteLine();
+
+            algorithm.quickSort(arr, 0, arr.Length - 1);
+
+            Console.WriteLine();
+            Console.WriteLine("Sorted array : ");
+
+            foreach (var item in arr)
+            {
+                Console.Write(" " + item);
+            }
+            Console.WriteLine();
+
+
+
+
         }
+    
+    
+    
 
 
 
