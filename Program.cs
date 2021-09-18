@@ -89,5 +89,27 @@ namespace c_sharp_demos
             }
         }
 
+
+        // find if integer is a prime number or not
+        internal static bool FindPrime(int number)
+        {
+            /* input :- 20 output :- Not Prime
+             * input :- 17 output :- Prime
+             * 
+             * */
+            if (number == 1) return false;
+            if (number == 2) return true;
+            if (number % 2 == 0) return false;
+
+            var squareRoot = (int)Math.Floor(Math.Sqrt(number));
+
+            for (int i = 3; i <= squareRoot; i += 2)
+            {
+                if (number % i == 0) return false;
+            }
+
+            return true;
+        }
+
     }
 }
